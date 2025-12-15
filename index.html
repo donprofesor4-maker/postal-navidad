@@ -15,30 +15,37 @@
       max-width:600px;
       margin:auto;
       background:white;
-      padding:20px;
-      border-radius:10px;
+      padding:25px;
+      border-radius:12px;
       text-align:center;
+      box-shadow:0 2px 8px rgba(0,0,0,0.1);
     }
     h1{
       color:#2e7d32;
-    }
-    a{
-      display:block;
-      margin:15px 0;
-      padding:15px;
-      background:#2e7d32;
-      color:white;
-      text-decoration:none;
-      border-radius:8px;
-      font-size:18px;
-    }
-    a.secundario{
-      background:#1565c0;
+      margin-bottom:10px;
     }
     p{
       font-size:16px;
+      line-height:1.4;
+    }
+    a{
+      display:block;
+      margin:18px 0;
+      padding:16px;
+      background:#2e7d32;
+      color:white;
+      text-decoration:none;
+      border-radius:10px;
+      font-size:18px;
+      font-weight:bold;
+    }
+    a.secundario{
+      background:#1565c0;
+      cursor:default;
     }
     small{
+      display:block;
+      margin-top:15px;
       font-size:13px;
       color:#555;
     }
@@ -50,22 +57,23 @@
   <h1>🎄 Postal Navideña Digital</h1>
 
   <p>
-    Para recibir la postal navideña digital elaborada en la clase de
-    <b>Computación / Cultura Digital</b>,
-    por favor registre sus datos.
+    Para recibir la <b>postal navideña digital</b> elaborada en la clase de
+    <b>Computación / Cultura Digital</b>, por favor registre sus datos.
   </p>
 
-  <!-- AQUÍ VA EL LINK DE TU FORMULARIO -->
-  <a href="PEGA_AQUI_EL_LINK_DEL_FORMULARIO" target="_blank">
+  <!-- BOTÓN FORMULARIO -->
+  <a href="https://forms.gle/xCFNSueueszfnTC4A" target="_blank">
     📝 Registrar datos de contacto
   </a>
 
-  <!-- AQUÍ VA EL LINK DE LA POSTAL -->
-  <a href="PEGA_AQUI_EL_LINK_DE_LA_POSTAL" class="secundario" target="_blank">
-    🖼️ Ver / Descargar Postal
+  <!-- BOTÓN POSTAL PERSONALIZADA -->
+  <a href="#" class="secundario" onclick="return false;">
+    📲 La postal se enviará de forma personalizada por WhatsApp
   </a>
 
   <small>
+    La postal navideña se compartirá de manera individual al número de WhatsApp
+    registrado, correspondiente al alumno.<br>
     Los datos se utilizan únicamente con fines escolares.
   </small>
 </div>
